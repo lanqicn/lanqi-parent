@@ -9,6 +9,10 @@
     <version>1.0.0</version>
     <packaging>pom</packaging>
     
+    <url>https://github.com/lanqicn/lanqi-parent</url>
+    
+    <description>parent pom for lanqi opensource project</description>
+    
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -25,6 +29,20 @@
         <url>https://github.com/lanqicn/lanqi-parent</url>
         <tag>lanqi-parent-1.0.0</tag>
     </scm>
+    
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+    
+    <developers>
+        <developer>
+            <name>lanqi</name>
+            <email>lanqi.opensource@outlook.com</email>
+        </developer>
+    </developers>
     
     <build>
         <plugins>
